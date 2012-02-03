@@ -1,0 +1,26 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-03 09:16:55
+project --topLevelPackage jp.co.hzmyh0.roo.searchbookroo
+persistence setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT 
+entity --class ~.domain.Book --testAutomatically 1
+field string --fieldName name --notNull --sizeMin 1
+field string --fieldName author --notNull --sizeMin 1
+field string --fieldName publisher --notNull --sizeMin 1
+entity --class ~.domain.Genre --testAutomatically 1
+field string --fieldName name --notNull --sizeMin 1 --unique
+entity --class ~.domain.Bookshelf --testAutomatically 1
+field string --fieldName name --notNull --sizeMin 1 --unique 
+entity --class ~.domain.Review --testAutomatically true
+field number --fieldName score --type int --decimalMin 0 --decimalMax 5
+field string --fieldName text --sizeMin 1
+field string --fieldName reviewer --sizeMin 1
+field set --class ~.domain.Book --fieldName genreSet --type ~.domain.Genre
+// [failed] field set --fieldName where --type ~.domain.Bookshelf
+field set --fieldName address --type ~.domain.Bookshelf
+field set --fieldName review --type ~.domain.Review
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-03 09:36:22
+perform test
+persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+perform tests
+perform tests
+persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+perform tests

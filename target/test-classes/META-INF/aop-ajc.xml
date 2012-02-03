@@ -1,0 +1,21 @@
+<aspectj>
+<aspects>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.GenreDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfDataOnDemand_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewDataOnDemand_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.BookIntegrationTest_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.GenreDataOnDemand_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.GenreIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.BookIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.GenreIntegrationTest_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.BookDataOnDemand_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.BookDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+
