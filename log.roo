@@ -24,3 +24,25 @@ perform tests
 perform tests
 persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
 perform tests
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-03 17:05:35
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-03 17:05:41
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-06 13:58:19
+perform tests
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-06 14:01:59
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-06 14:06:50
+perform tests
+perform tests
+perform tests
+perform tests
+perform tests
+perform tests
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-06 14:49:02
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-10 09:02:00
+perform test
+web mvc setup
+web mvc all --package  ~.web
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-10 09:11:56
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-10 10:01:38

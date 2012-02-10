@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_jp_co_hzmyh0_roo_searchbookroo_domain_Review" items="${reviews}" z="ROXoym8d6vBHhqeP6LofVapwXmU=">
+        <table:table data="${reviews}" id="l_jp_co_hzmyh0_roo_searchbookroo_domain_Review" path="/reviews" z="+Eo87BFBCn6ch2oq+e4PFXBKTjM=">
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Review_score" property="score" z="dLsB0w5dpXOcFIJ3gEM8cMlo1zA="/>
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Review_text" property="text" z="lsnrH2ePz8d0uq47B2C42Y3+cYE="/>
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Review_reviewer" property="reviewer" z="RIItYDw5bwS9/VQx+zdhKIV5GJ4="/>
+        </table:table>
+    </page:list>
+</div>

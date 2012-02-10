@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_jp_co_hzmyh0_roo_searchbookroo_domain_Book" items="${books}" z="wH0WDmMq4R5P4kdnfYvHzB3npyg=">
+        <table:table data="${books}" id="l_jp_co_hzmyh0_roo_searchbookroo_domain_Book" path="/books" z="/pipoiRJpT43m8BaDRzS6gvPKrM=">
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Book_name" property="name" z="DBAzmXMHiUvNl+gRSWONsxXeMyY="/>
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Book_author" property="author" z="uMl6WtmjZtzW4yyaETRZHSTxXcE="/>
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Book_publisher" property="publisher" z="UkfYv5lgXFXeH5f5k0zgIr+xMlM="/>
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Book_genreSet" property="genreSet" z="DVOucxYVAEBvDZT0Te9Ch54Mkmg="/>
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Book_address" property="address" z="H1zZvAUyf7QK409k6wZy2Cmcikc="/>
+            <table:column id="c_jp_co_hzmyh0_roo_searchbookroo_domain_Book_review" property="review" z="aP/KSIb4UST3X4dyzDec8EW4BPg="/>
+        </table:table>
+    </page:list>
+</div>

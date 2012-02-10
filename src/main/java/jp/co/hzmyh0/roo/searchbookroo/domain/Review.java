@@ -14,7 +14,7 @@ public class Review {
 
     @DecimalMin("0")
     @DecimalMax("5")
-    private int score;
+    private int score = 0;
 
     @Size(min = 1)
     private String text;

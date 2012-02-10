@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_jp_co_hzmyh0_roo_searchbookroo_domain_Book" object="${book}" path="/books" z="TlOzSjbuM/Kxglh7dOLzAHqZwX0=">
+        <field:display field="name" id="s_jp_co_hzmyh0_roo_searchbookroo_domain_Book_name" object="${book}" z="zNAKIoroEq+xOSJP6/Vxvma+im4="/>
+        <field:display field="author" id="s_jp_co_hzmyh0_roo_searchbookroo_domain_Book_author" object="${book}" z="zanHITmvv90gBStN7oxgo1tWIvA="/>
+        <field:display field="publisher" id="s_jp_co_hzmyh0_roo_searchbookroo_domain_Book_publisher" object="${book}" z="GuBPq49fbC1VZ6MBgjXGxW5Svq0="/>
+        <field:display field="genreSet" id="s_jp_co_hzmyh0_roo_searchbookroo_domain_Book_genreSet" object="${book}" z="DVxIO9+luZDZd9IF9tbqWN9cykI="/>
+        <field:display field="address" id="s_jp_co_hzmyh0_roo_searchbookroo_domain_Book_address" object="${book}" z="n6/BVjm/cGawNHTIQ0co9q5Yuq8="/>
+        <field:display field="review" id="s_jp_co_hzmyh0_roo_searchbookroo_domain_Book_review" object="${book}" z="tSJDYODG7P++4TmIV40i4cnTxtU="/>
+    </page:show>
+</div>

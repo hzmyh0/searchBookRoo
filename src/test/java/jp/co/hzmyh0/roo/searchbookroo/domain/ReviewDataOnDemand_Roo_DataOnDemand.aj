@@ -36,7 +36,7 @@ privileged aspect ReviewDataOnDemand_Roo_DataOnDemand {
     }
     
     public void ReviewDataOnDemand.setScore(Review obj, int index) {
-        int score = index;
+        int score = 0;
         obj.setScore(score);
     }
     
