@@ -46,3 +46,7 @@ web mvc setup
 web mvc all --package  ~.web
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-10 09:11:56
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-10 10:01:38
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-17 09:51:31
+perform tests
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-17 09:52:21
