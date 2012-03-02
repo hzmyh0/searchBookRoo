@@ -13,6 +13,8 @@ import jp.co.hzmyh0.roo.searchbookroo.domain.Genre;
 import java.util.HashSet;
 import javax.persistence.ManyToMany;
 import javax.persistence.CascadeType;
+import javax.persistence.TypedQuery;
+
 import jp.co.hzmyh0.roo.searchbookroo.domain.Bookshelf;
 import jp.co.hzmyh0.roo.searchbookroo.domain.Review;
 
@@ -46,7 +48,8 @@ public class Book{
     private Set<Review> review = new HashSet<Review>();
     
     public List<Book> findBookByName(String bookname) {
-        return entityManager.createQuery("SELECT o FROM Book o", Book.class).getResultList();
+    	TypedQuery<Book> q = entityManager().createQuery("SELECT o FROM Book o", Book.class);
+        return q.getResultList();
     }
     
 }

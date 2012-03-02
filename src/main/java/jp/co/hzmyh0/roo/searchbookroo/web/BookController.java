@@ -32,7 +32,9 @@ public class BookController {
 		out.append(bookname);
 		
 		for (Book b:booklist) {
-			out.append(b.getName()+"<br>");
+			if (bookname.equalsIgnoreCase(b.getName())) {
+				out.append(b.getName()+"<br>");
+			}
 		}
 		
 		out.close();
