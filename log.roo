@@ -50,3 +50,20 @@ web mvc all --package  ~.web
 perform tests
 exit
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-17 09:52:21
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-02 09:11:59
+finder list --class ~.domain.Book
+finder add --finderName findBooksByNameEqua
+finder add --finderName findBooksByNameEquals --
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-02 09:17:57
+finder add --finderName findBooksByNameEquals --class ~.domain.Book
+finder list
+finder add --finderName findBooksByGenreSet --class ~.domain.Book
+perform tests
+finder list
+finder add --finderName findBooksByGenreSet --class ~.domain.Books
+finder add --finderName findBooksByGenreSet --class ~.domain.Book
+perform tests
+exit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-02 09:32:05
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-02 09:34:01
+perform tests

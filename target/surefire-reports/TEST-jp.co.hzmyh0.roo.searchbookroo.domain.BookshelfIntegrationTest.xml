@@ -19,8 +19,8 @@
     <property name="basedir" value="E:\datas\roo\searchBookRoo"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="E:\datas\roo\searchBookRoo\target\surefire\surefirebooter2817000674623612966.jar"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\1\"/>
+    <property name="surefire.real.class.path" value="E:\datas\roo\searchBookRoo\target\surefire\surefirebooter9032685149835011272.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
@@ -62,10 +62,10 @@
   <testcase time="0.007" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testMarkerMethod"/>
   <testcase time="0.018" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testFlush"/>
   <testcase time="0.012" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testMerge"/>
-  <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testPersist"/>
-  <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testRemove"/>
+  <testcase time="0.012" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testPersist"/>
+  <testcase time="0.012" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testRemove"/>
   <testcase time="0.013" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testCountBookshelves"/>
-  <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testFindBookshelf"/>
-  <testcase time="0.012" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testFindAllBookshelves"/>
+  <testcase time="0.01" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testFindBookshelf"/>
+  <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testFindAllBookshelves"/>
   <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.BookshelfIntegrationTest" name="testFindBookshelfEntries"/>
 </testsuite>

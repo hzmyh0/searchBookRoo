@@ -1,26 +1,28 @@
 <aspectj>
 <aspects>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Genre_Roo_Entity"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.web.BookController_Roo_Controller"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.web.BookshelfController_Roo_Controller"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Book_Roo_Configurable"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Book_Roo_JavaBean"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.web.GenreController_Roo_Controller"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Review_Roo_ToString"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Bookshelf_Roo_JavaBean"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Book_Roo_ToString"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.web.ReviewController_Roo_Controller"/>
-<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Bookshelf_Roo_Entity"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.web.BookController_Roo_Controller"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.web.BookshelfController_Roo_Controller"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.web.BookController_Roo_Controller_Finder"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Bookshelf_Roo_ToString"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Bookshelf_Roo_Entity"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Book_Roo_Entity"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Book_Roo_JavaBean"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Book_Roo_Configurable"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Review_Roo_Entity"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Genre_Roo_JavaBean"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.web.GenreController_Roo_Controller"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Genre_Roo_Configurable"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Genre_Roo_ToString"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Review_Roo_ToString"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Bookshelf_Roo_Configurable"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Review_Roo_Configurable"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Bookshelf_Roo_JavaBean"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Book_Roo_Finder"/>
 <aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Review_Roo_JavaBean"/>
+<aspect name="jp.co.hzmyh0.roo.searchbookroo.domain.Book_Roo_ToString"/>
 </aspects>
 </aspectj>
 

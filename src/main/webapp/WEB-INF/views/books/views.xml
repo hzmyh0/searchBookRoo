@@ -13,4 +13,10 @@
 <definition extends="default" name="books/update">
         <put-attribute name="body" value="/WEB-INF/views/books/update.jspx"/>
     </definition>
+<definition extends="default" name="books/findBooksByNameEquals">
+        <put-attribute name="body" value="/WEB-INF/views/books/findBooksByNameEquals.jspx"/>
+    </definition>
+<definition extends="default" name="books/findBooksByGenreSet">
+        <put-attribute name="body" value="/WEB-INF/views/books/findBooksByGenreSet.jspx"/>
+    </definition>
 </tiles-definitions>

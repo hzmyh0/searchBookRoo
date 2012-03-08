@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.114" errors="0" skipped="0" tests="9" name="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest">
+<testsuite failures="0" time="0.116" errors="0" skipped="0" tests="9" name="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_23\jre\bin"/>
@@ -19,8 +19,8 @@
     <property name="basedir" value="E:\datas\roo\searchBookRoo"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_23\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="E:\datas\roo\searchBookRoo\target\surefire\surefirebooter2817000674623612966.jar"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\1\"/>
+    <property name="surefire.real.class.path" value="E:\datas\roo\searchBookRoo\target\surefire\surefirebooter9032685149835011272.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
@@ -59,13 +59,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.007" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testMarkerMethod"/>
-  <testcase time="0.021" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testFlush"/>
-  <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testMerge"/>
+  <testcase time="0.006" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testMarkerMethod"/>
+  <testcase time="0.02" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testFlush"/>
+  <testcase time="0.012" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testMerge"/>
   <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testPersist"/>
   <testcase time="0.012" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testRemove"/>
-  <testcase time="0.013" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testCountReviews"/>
+  <testcase time="0.014" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testCountReviews"/>
   <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testFindReview"/>
-  <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testFindAllReviews"/>
-  <testcase time="0.011" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testFindReviewEntries"/>
+  <testcase time="0.012" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testFindAllReviews"/>
+  <testcase time="0.012" classname="jp.co.hzmyh0.roo.searchbookroo.domain.ReviewIntegrationTest" name="testFindReviewEntries"/>
 </testsuite>

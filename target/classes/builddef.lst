@@ -21,6 +21,7 @@ E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\web\Appl
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\domain\Book_Roo_ToString.aj
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\web\BookshelfController.java
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\web\BookController_Roo_Controller.aj
+E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\domain\Book_Roo_Finder.aj
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\web\ReviewController.java
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\domain\Review_Roo_Entity.aj
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\domain\Book_Roo_Configurable.aj
@@ -31,6 +32,7 @@ E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\web\Appl
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\web\GenreController.java
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\domain\Book.java
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\web\GenreController_Roo_Controller.aj
+E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\web\BookController_Roo_Controller_Finder.aj
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\domain\Review.java
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\domain\Review_Roo_ToString.aj
 E:\datas\roo\searchBookRoo\src\main\java\jp\co\hzmyh0\roo\searchbookroo\domain\Bookshelf_Roo_Configurable.aj
